@@ -1,4 +1,3 @@
-
 const RenderCards = () => {
     const cardDataObj = {
         title: "Classic Black Hooded Shirt",
