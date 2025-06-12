@@ -1,4 +1,6 @@
-const RenderCards = () => {
+import img1 from "../assets/img.jpeg"
+
+const RenderSingleCard = () => {
     const cardDataObj = {
         title: "Classic Black Hooded Shirt",
         price: 89,
@@ -7,8 +9,8 @@ const RenderCards = () => {
         //In image we can give url OR path too
         // image1: "https://teetall.pk/cdn/shop/files/IMG-20230519-WA0002.jpg?crop=center&height=999&v=1684458048&width=750",
         // image2: { img1 } 
-        image3: "https://i.imgur.com/cSytoSD.jpeg",  //directly use this with extension provided in API 
-        image4: "https://i.imgur.com/cSytoSD" //if not provided then use this with template literals
+        image3: "https://i.imgur.com/cSytoSD.jpeg",
+        image4: "https://i.imgur.com/cSytoSD"
     }
     //Destructing Object - Unpacking of Object Keys
     const { title,
@@ -32,5 +34,4 @@ const RenderCards = () => {
         </div>
     )
 }
-
-export default RenderCards;
+export default RenderSingleCard;
